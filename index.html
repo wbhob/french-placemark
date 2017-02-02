@@ -1,0 +1,83 @@
+<style>
+    div.outer {
+        width:500px;
+        background-size: cover;
+        position:absolute;
+        z-index: 1;
+        overflow:hidden;
+    }  
+    .outer img {
+        width:500px;
+        max-height:auto;
+    }
+    h1 {
+        margin: 0;
+        margin-bottom:15px;
+        font-family: 'Muli', sans-serif;
+    }   
+    p, a {
+        font-family: 'Playfair Display', serif;
+    }  
+    a {
+        color:white;
+        border: 1px solid white;
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 20px 30px;
+        cursor: pointer;
+    }  
+    a:hover {
+        background-color: rgba(255, 255,255, 0.2);
+    }
+    a:active {
+        background-color: rgba(255, 255,255, 0.4);
+    }
+    div.outer:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background:  rgba(0,0,0,.4);
+    }
+    div.inner {
+        margin: auto;
+        width: 250px;
+        color:white;
+        z-index: 800;
+        background: transparent;
+        position:absolute;
+        text-align:center;
+        top:30px;
+        padding:40px;
+        left: 100px;
+    }
+    .border {
+        border-bottom: 1px solid white;
+        width:40px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .container {
+        width: 500px;
+        overflow:hidden;
+    }
+    
+    </style>
+<div class="container">
+    <div class="inner">
+        <h1>Cowboy Monument</h1>
+        <div class="border"></div>
+        <p>My proposed cowboy monument is a tribute to the guy pictured behind this text. He looks really introspective, and
+            the sun setting behind him only adds to the effect. I also really like his hat. Unfortunately, he isn't a real
+            cowboy because that was 100 years ago.</p>
+
+        <br>
+        <a href="#">See Our Page</a>
+    </div>
+    <div class="outer">
+        <img src="https://storage.googleapis.com/lovett-french/image2.jpg" alt="">
+    </div>
+</div>
+<link href="https://fonts.googleapis.com/css?family=Muli:700|Playfair+Display:400,700" rel="stylesheet">
