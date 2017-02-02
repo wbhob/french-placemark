@@ -10,6 +10,15 @@
         width:500px;
         max-height:auto;
     }
+    .container:hover .outer .off {
+        display: none;
+    }
+    .container:hover .outer .on {
+        display: block;
+    }
+    .container .outer .on {
+        display: none;
+    }
     h1 {
         margin: 0;
         margin-bottom:15px;
@@ -77,7 +86,8 @@
         <a href="#">See Our Page</a>
     </div>
     <div class="outer">
-        <img src="https://storage.googleapis.com/lovett-french/image2.jpg" alt="">
+        <img class="off" src="https://storage.googleapis.com/lovett-french/image2.jpg" alt="">
+        <img class="on" src="http://unsplash.com/photos/88tNht2G1k4/download" alt="">
     </div>
 </div>
 <link href="https://fonts.googleapis.com/css?family=Muli:700|Playfair+Display:400,700" rel="stylesheet">
