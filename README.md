@@ -12,3 +12,7 @@ This is the repo for creating a working Google Earth placemark for French V.
 8. Copy everything in the document and paste into your placemark.
 9. Test your placemark.
 10. Have a party, because that was easy.
+
+### Tips
+- Keep in mind that the text needs to be brief. Linking to a webpage is awesome, and we may work on it later, but for now try to limit your placemark to ~3 sentences.
+- Please refer to this page for the instructions, as it is always the latest version. It has the latest instruction and latest version of the template.
