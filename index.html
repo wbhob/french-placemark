@@ -1,46 +1,57 @@
 <style>
     div.outer {
-        width:500px;
+        width: 500px;
         background-size: cover;
-        position:absolute;
+        position: absolute;
         z-index: 1;
-        overflow:hidden;
-    }  
-    .outer img {
-        width:500px;
-        max-height:auto;
+        overflow: hidden;
     }
+    
+    .outer img {
+        width: 500px;
+        max-height: auto;
+    }
+    
     .container:hover .outer .off {
         display: none;
     }
+    
     .container:hover .outer .on {
         display: block;
     }
+    
     .container .outer .on {
         display: none;
     }
+    
     h1 {
         margin: 0;
-        margin-bottom:15px;
+        margin-bottom: 15px;
         font-family: 'Muli', sans-serif;
-    }   
-    p, a {
-        font-family: 'Playfair Display', serif;
-    }  
+    }
+    
+    p,
     a {
-        color:white;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    a {
+        color: white;
         border: 1px solid white;
         border-radius: 10px;
         text-decoration: none;
         padding: 20px 30px;
         cursor: pointer;
-    }  
+    }
+    
     a:hover {
-        background-color: rgba(255, 255,255, 0.2);
+        background-color: rgba(255, 255, 255, 0.2);
     }
+    
     a:active {
-        background-color: rgba(255, 255,255, 0.4);
+        background-color: rgba(255, 255, 255, 0.4);
     }
+    
     div.outer:before {
         content: '';
         position: absolute;
@@ -48,46 +59,50 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background:  rgba(0,0,0,.4);
+        background: rgba(0, 0, 0, .4);
     }
+    
     div.inner {
         margin: auto;
         width: 250px;
-        color:white;
+        color: white;
         z-index: 800;
         background: transparent;
-        position:absolute;
-        text-align:center;
-        top:30px;
-        padding:40px;
+        position: absolute;
+        text-align: center;
+        top: 30px;
+        padding: 40px;
         left: 100px;
     }
+    
     .border {
         border-bottom: 1px solid white;
-        width:40px;
+        width: 40px;
         text-align: center;
         margin: 0 auto;
     }
+    
     .container {
         width: 500px;
-        overflow:hidden;
+        overflow: hidden;
     }
-    
-    </style>
+</style>
 <div class="container">
     <div class="inner">
-        <h1>Cowboy Monument</h1>
+        <h1>Monument de les Déportés</h1>
         <div class="border"></div>
-        <p>My proposed cowboy monument is a tribute to the guy pictured behind this text. He looks really introspective, and
-            the sun setting behind him only adds to the effect. I also really like his hat. Unfortunately, he isn't a real
-            cowboy because that was 100 years ago.</p>
+        <p>Mon monument marque la déportation des Juifs de Monaco en 1943. Le dessin est basé sur les six points de l’étoile
+            de Davide, et sur les 94 personnes qui étaient déportées. L'utilisation du miroir symbolise que nous pouvons
+            regarder vers le passé, mais nous avons besoin de regarder vers l’avenir, et de ne permettre jamais que ces événements
+            se passent encore.
+        </p>
 
         <br>
         <a href="#">See Our Page</a>
     </div>
     <div class="outer">
-        <img class="off" src="https://storage.googleapis.com/lovett-french/image2.jpg" alt="">
-        <img class="on" src="http://unsplash.com/photos/88tNht2G1k4/download" alt="">
+        <img class="off" src="https://storage.googleapis.com/lovett-french/xvhjgngbhxc-jeremy-goldberg.jpg" alt="">
+        <img class="on" src="https://s-media-cache-ak0.pinimg.com/736x/02/d4/eb/02d4eb2e6514ced253d5e969334dde31.jpg" alt="">
     </div>
 </div>
 <link href="https://fonts.googleapis.com/css?family=Muli:700|Playfair+Display:400,700" rel="stylesheet">
